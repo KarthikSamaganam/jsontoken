@@ -31,8 +31,8 @@ public class FakeClock extends SystemClock {
     super(acceptableClockSkew);
   }
 
-  public void setNow(Instant i) {
-    now = i;
+  public void setNow(Instant j) {
+    now = j;
   }
 
   @Override
